@@ -1,1 +1,118 @@
 /* Your styles here */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+}
+h1{
+    display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+b{
+    font-weight:bold;
+}
+.bg-dark{
+    background-color: #222F3F;
+}
+header img{
+    width: 6em;
+    padding: 1em;
+}
+.bg-lightdark{
+    background-color: #364757;
+}
+.navbar ul{
+    padding: 1em;
+}
+.navbar ul li{
+    display:inline;
+    padding: 0.5em;
+}
+.navbar a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+main{
+    padding: 1em;
+    background-color: #E9EDEE;
+}
+.bg-orange{
+    background-color: #F66500;
+}
+.bg-orange.text-center p{
+    padding: 0.5em;
+    margin-bottom: 1.5em;
+}
+.text-center{
+    text-align: center;
+}
+
+.img{
+    height: 20em;
+    border-radius: 5em;
+}
+.banner{
+    background-image: url(../img/bg-image.png);
+    background-size: contain;
+    background-position: top;
+    height: 12.5em;
+}
+
+.back{
+    padding: 1em;
+}
+.text{
+    padding-top: 3.5em;;
+}
+.back a{
+    color:#FFFFFF;
+    text-decoration: none;
+    padding: 1em;
+}
+.min-heigt{
+    min-height: min-content;
+}
+.firstsection{
+    color: #000000;
+    background-color: #FFFFFF;
+    margin-top: 1.5em;
+    padding: 1em;
+}
+
+.firstsection div{
+    display: inline;
+}
+.firstsection p{
+    padding-bottom: 1em;
+    text-align: start;
+}
+.firstsection a{
+    color: #004B58;
+    text-decoration: none;
+    margin-left: 1em;
+}
+.secondsection img, .thirdsection img {
+    margin-top: 1.5em;
+    width: -webkit-fill-available;
+}
+.secondsection, .thirdsection{
+    color: #000000;
+}
+.secondsection a, .thirdsection a{
+    color: #004B58;
+    text-decoration: none;
+    margin-left: 1em;
+}
+.thirdsection{
+    margin-bottom: 1.5em;
+}
+.logo{
+    padding: 4em;
+}
+footer img{
+    width: 9em;
+}
